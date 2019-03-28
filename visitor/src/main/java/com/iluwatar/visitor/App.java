@@ -40,7 +40,7 @@ public class App {
    * @param args command line args
    */
   public static void main(String[] args) {
-
+    String s = "d";
     Commander commander =
         new Commander(new Sergeant(new Soldier(), new Soldier(), new Soldier()), new Sergeant(
             new Soldier(), new Soldier(), new Soldier()));
